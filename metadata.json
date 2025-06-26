@@ -1,6 +1,7 @@
+
 {
-  "name": "Video Background Remover",
-  "description": "An application to upload an image and a video, replace the video's solid color background with the image, and download the result. Users can resize and position the video on the image background. Features an AI-powered chroma key color suggestion using Gemini.",
+  "name": "VideYO",
+  "description": "VideYO: An AI-powered video editing and creation suite. Features include video background swapping, AI video generation, video clip combination, and chroma key color suggestions using Gemini. Designed for intuitive video manipulation and content creation.",
   "requestFramePermissions": [],
-  "prompt": ""
+  "prompt": "VideYO is a versatile AI-powered video editing and creation application. It allows users to perform tasks such as swapping video backgrounds by replacing a solid color with an uploaded image, generating new video content using AI, and combining multiple video clips. The tool also features AI-assisted chroma key color suggestion. The goal is to provide a user-friendly suite of tools for various video editing and creation needs."
 }

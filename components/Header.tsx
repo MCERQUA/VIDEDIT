@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import type { PageKey } from '../types';
 import { MenuIcon, XIcon } from './Icons'; // Import new icons
@@ -48,8 +49,11 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
+            {/* Updated logo image path and alt text */}
+            <img src="/images/videyo-logo.png" alt="VideYO Logo" className="h-8 w-auto mr-2" />
+            {/* Updated header title text */}
             <span className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
-              Video Tools AI
+              VideYO
             </span>
           </div>
           <div className="hidden md:block">
