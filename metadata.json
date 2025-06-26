@@ -1,0 +1,6 @@
+{
+  "name": "Video Background Remover",
+  "description": "An application to upload an image and a video, replace the video's solid color background with the image, and download the result. Users can resize and position the video on the image background. Features an AI-powered chroma key color suggestion using Gemini.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
